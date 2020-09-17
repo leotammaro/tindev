@@ -1,0 +1,13 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 70px ;
+    background: linear-gradient(rgba(0, 0, 0,0.9),transparent);
+
+    .logo{
+        width: auto;
+        height: 40px;
+    }
+    
+}

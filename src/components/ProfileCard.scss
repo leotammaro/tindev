@@ -1,0 +1,23 @@
+.profile-card{
+    position: relative;
+    height: 540px;
+    width: 373px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.profile-card:first-child{
+    box-shadow: 1px 1px 29px -20px rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+
+.user-name{
+    position: absolute;
+     bottom: 0;
+     margin: 10px;
+     color: #fff;
+     font-weight: bold;
+    font-size: 20px;
+}

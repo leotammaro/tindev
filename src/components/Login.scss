@@ -1,0 +1,49 @@
+.authentication-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .authentication{
+        background-color: #fff;
+        width: 440px;
+        height: auto;
+        padding: 40px 30px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+        .auth-description{
+            font-size: 10px;
+            margin: 30px 0px;
+            text-align: center;
+        }
+
+        .google-button{
+            display: flex;
+            padding: 10px ;
+            border: 2px #707571 solid;
+            border-radius: 30px;
+            font-size: 20px;
+            color: #707571;
+            justify-content: center;
+            align-items: center;
+            width: 70%;
+            background-image: url("../assets/google.png");
+            background-repeat: no-repeat;
+            background-size: 23px;
+            background-position: 14px 10px;
+            background-color: #fff;
+        }
+        .logo-tinder{
+            width: 40px;
+            height: auto;
+        }
+    }
+    
+}

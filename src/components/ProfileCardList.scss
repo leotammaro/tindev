@@ -1,0 +1,62 @@
+
+.container-users{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 100%;
+   overflow: hidden;
+
+  
+   .tinder-card{
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &.swipe-rigth{
+        animation: swipeRigth ease 1s;
+    }
+
+        .options-swipe{
+            height: 30px;
+            width: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            cursor: pointer;
+
+            .options-swipe-buttons{
+                padding:10px;
+                height:40px;
+                margin:5px 10px;
+                background-color:white;
+                border-radius:50%;
+                box-shadow: 1px 1px 20px -15px rgba(0,0,0,0.35);
+                width:40px
+            }
+         }
+    }
+}
+
+@keyframes swipeRigth{
+    0% {
+        opacity: 1;
+        transform:translate(0,0);
+    }
+    20%{
+        opacity: 1;
+        transform:translate(20px,0);
+    }
+    100%{
+        opacity: 0;
+        transform:translate(200px,0);
+    }
+}
+
+

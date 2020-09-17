@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+}
+.Home{
+    display: flex;
+
+   .left-container{
+       max-width: 373px;
+       height: 100vh;
+       border-right: 1px solid #DFDCDC  ;
+       min-width: 373px;
+       
+       .navbar-user{
+           
+           background: linear-gradient(262deg, #ff7854, #fd267d);
+            height: 73px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-shadow: 1px 1px 2px 1px rgba(0,0,0,.15);
+            
+           .my-profile{
+               display: flex;
+               align-items: center;
+                color: #fff;
+                font-weight:500;
+                font-size: 22px;
+               
+               .photo-profile{
+                   margin-right: 15px;
+                   height: 30px;
+                   width: 30px;
+                   border: 2px white solid;
+                   
+               }
+           }
+           .log-out{
+               color: #fff;
+           }
+        }
+
+        .options{
+            font-size: 16px;
+            font-weight: bolder;
+            padding: 10px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            margin: 5px 10px;
+    
+        }
+        .matchs{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: flex-start;
+           
+            
+            
+        }
+     
+    }
+   
+}
